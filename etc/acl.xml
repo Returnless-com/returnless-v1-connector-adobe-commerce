@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Returnless_Connector::giftcard_account" title="Returnless API - GiftCard Accounts"
+                          translate="title" sortOrder="110">
+                    <resource id="Returnless_Connector::create_giftcard_account" title="Create GiftCard Account"
+                              translate="title" sortOrder="10" />
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>
