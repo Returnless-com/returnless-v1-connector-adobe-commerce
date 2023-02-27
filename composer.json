@@ -1,6 +1,6 @@
 {
   "name": "returnless-com/module-adobe-commerce",
-  "description": "Returnless Connector",
+  "description": "Returnless Extend Rest Api",
   "type": "magento2-module",
   "require": {
     "php": "~7.0.0|7.0.2|7.0.4|~7.0.6|~7.1.0|~7.2.0|~7.3.0|~7.4.0|8.0.*|8.1.*"
@@ -10,7 +10,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "Returnless\\Connector\\": ""
+      "Returnless\\ExtendRestApi\\": ""
     }
   },
   "license": [

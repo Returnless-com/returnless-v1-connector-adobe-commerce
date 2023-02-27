@@ -1,5 +1,5 @@
 <?php
-namespace Returnless\Connector\Api;
+namespace Returnless\ExtendRestApi\Api;
 
 interface GiftCardAccountInterface
 {

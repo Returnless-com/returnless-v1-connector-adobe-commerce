@@ -17,7 +17,7 @@ Step-by-step to install the Returnless Connector for Magento® 2 by Composer:
 
 <pre>
 php bin/magento setup:upgrade
-php bin/magento module:enable Returnless_Connector
+php bin/magento module:enable Returnless_ExtendRestApi
 php bin/magento cache:clean
 </pre>
 

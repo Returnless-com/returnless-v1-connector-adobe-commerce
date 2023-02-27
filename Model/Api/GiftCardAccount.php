@@ -1,5 +1,5 @@
 <?php
-namespace Returnless\Connector\Model\Api;
+namespace Returnless\ExtendRestApi\Model\Api;
 
 use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Framework\ObjectManagerInterface;
@@ -7,9 +7,9 @@ use Magento\GiftCardAccount\Model\Giftcardaccount as GiftCardModel;
 use Magento\GiftCardAccount\Model\Pool;
 use Magento\Sales\Model\Order;
 use Magento\Store\Model\StoreManagerInterface;
-use Returnless\Connector\Api\GiftCardAccountInterface;
-use Returnless\Connector\Api\ResponseGiftCardAccountInterface;
-use Returnless\Connector\Api\ResponseGiftCardAccountInterfaceFactory;
+use Returnless\ExtendRestApi\Api\GiftCardAccountInterface;
+use Returnless\ExtendRestApi\Api\ResponseGiftCardAccountInterface;
+use Returnless\ExtendRestApi\Api\ResponseGiftCardAccountInterfaceFactory;
 use Psr\Log\LoggerInterface;
 
 /**
@@ -20,7 +20,7 @@ class GiftCardAccount implements GiftCardAccountInterface
     /**
      * const NAMESPACE_MODULE
      */
-    const NAMESPACE_MODULE = 'Returnless_Connector';
+    const NAMESPACE_MODULE = 'Returnless_ExtendRestApi';
 
     /**
      * @var ObjectManagerInterface
