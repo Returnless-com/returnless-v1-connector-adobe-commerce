@@ -1,6 +1,6 @@
 <?php
 
-namespace Returnless\ExtendRestApi\Api;
+namespace Returnless\Integration\Api;
 
 interface ResponseGiftCardAccountInterface
 {

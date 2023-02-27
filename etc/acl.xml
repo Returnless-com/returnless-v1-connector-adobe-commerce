@@ -4,9 +4,9 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="Returnless_ExtendRestApi::giftcard_account" title="Returnless API - GiftCard Accounts"
+                <resource id="Returnless_Integration::giftcard_account" title="Returnless API - GiftCard Accounts"
                           translate="title" sortOrder="110">
-                    <resource id="Returnless_ExtendRestApi::create_giftcard_account" title="Create GiftCard Account"
+                    <resource id="Returnless_Integration::create_giftcard_account" title="Create GiftCard Account"
                               translate="title" sortOrder="10" />
                 </resource>
             </resource>

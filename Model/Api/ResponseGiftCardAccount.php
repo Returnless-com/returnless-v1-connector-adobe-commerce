@@ -1,8 +1,8 @@
 <?php
-namespace Returnless\ExtendRestApi\Model\Api;
+namespace Returnless\Integration\Model\Api;
 
 use Magento\Framework\DataObject;
-use Returnless\ExtendRestApi\Api\ResponseGiftCardAccountInterface;
+use Returnless\Integration\Api\ResponseGiftCardAccountInterface;
 
 class ResponseGiftCardAccount extends DataObject implements ResponseGiftCardAccountInterface
 {

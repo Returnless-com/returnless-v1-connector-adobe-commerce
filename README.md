@@ -11,13 +11,13 @@ Step-by-step to install the Returnless Connector for Magento® 2 by Composer:
 
 2. Enter the command line in your Root and wait as composer will download the extension for you:
 
-<pre>composer require returnless-com/module-adobe-commerce</pre>
+<pre>composer require returnless/adobe-commerce</pre>
 
 3. When it’s finished you can activate the extension and clean the caches using the following command line;
 
 <pre>
 php bin/magento setup:upgrade
-php bin/magento module:enable Returnless_ExtendRestApi
+php bin/magento module:enable Returnless_Integration
 php bin/magento cache:clean
 </pre>
 

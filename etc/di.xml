@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <preference for="Returnless\ExtendRestApi\Api\GiftCardAccountInterface" type="Returnless\ExtendRestApi\Model\Api\GiftCardAccount"/>
-    <preference for="Returnless\ExtendRestApi\Api\ResponseGiftCardAccountInterface" type="Returnless\ExtendRestApi\Model\Api\ResponseGiftCardAccount"/>
+    <preference for="Returnless\Integration\Api\GiftCardAccountInterface" type="Returnless\Integration\Model\Api\GiftCardAccount"/>
+    <preference for="Returnless\Integration\Api\ResponseGiftCardAccountInterface" type="Returnless\Integration\Model\Api\ResponseGiftCardAccount"/>
 </config>
